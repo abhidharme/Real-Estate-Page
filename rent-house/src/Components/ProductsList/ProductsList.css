@@ -1,0 +1,184 @@
+.mainBox {
+    margin: auto;
+    max-width: 1000px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box1 {
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.heading_title {
+    text-align: center;
+    display: grid;
+    align-items: center;
+    border-radius: 50px;
+    color: blueviolet;
+}
+
+.box2 {
+    margin-top: 10px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    background-color: white;
+
+}
+
+.box2>div {
+    background: rgb(228, 247, 255) linear-gradient(to bottom, white, rgb(231, 248, 255));
+    border-radius: 4px;
+    height: 350px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.box2>div img {
+    border-radius: 4px 4px 0px 0px;
+}
+
+#details {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+
+#details #dbox {
+    width: 46%;
+    text-align: center;
+}
+
+#details #roomsBox {
+    width: 46%;
+}
+
+#line {
+    border: 0.5px solid silver;
+    width: 0px;
+    background-color: silver;
+    border-radius: 50px;
+}
+
+#details>div>div h5 {
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 20px;
+    margin-top: 10px;
+}
+
+#roomsBox {
+    display: grid;
+    align-content: space-around;
+}
+
+.rooms {
+    display: flex;
+    gap: 10px;
+}
+
+#heart {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+}
+
+#heart:hover {
+    cursor: pointer;
+}
+
+#description p {
+    color: gray;
+    margin-top: -4px;
+    text-align: center;
+    max-height: 20px;
+    overflow: hidden;
+}
+
+
+.box2>div hr {
+    border-radius: 50%;
+    width: 90%;
+}
+
+#inputBox {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#inputBox input {
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px solid rgb(26, 140, 185);
+    background: skyblue linear-gradient(to bottom, white, skyblue);
+    outline-color: rgb(26, 140, 185);
+
+}
+
+#inputBox button {
+    height: 30px;
+    border: 2px solid rgb(26, 140, 185);
+    background-color: skyblue;
+    border-radius: 50px;
+
+}
+
+#filterButtons {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+#filterButtons>div {
+    border-radius: 3px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+
+#filterButtons>div {
+    height: 40px;
+}
+
+
+#filterButtons>div input {
+    width: 18px;
+    border: none;
+    height: 15px;
+    border-radius: 3px;
+    outline: 0;
+    background-color: blueviolet;
+
+}
+
+label {
+    margin-left: 3px;
+}
+
+
+select {
+    height: 20px;
+    width: 150px;
+}
+
+#searchdiv {
+    position: absolute;
+    top: 196px;
+    left: 600px;
+    border-radius: 0px 00px 10px 10px;
+    width: 325px;
+    text-align: center;
+    background: rgb(70, 196, 255);
+
+}

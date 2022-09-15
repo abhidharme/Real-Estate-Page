@@ -1,0 +1,94 @@
+.mainBox{
+    margin: auto;
+    max-width: 1000px;   
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box2{
+    border: 1px solid transparent;
+    margin-top: 10px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.box2>div{
+    background-color: white;
+    border-radius: 4px;
+    height: 350px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.box2>div img{
+    border-radius: 4px 4px 0px 0px;
+}
+
+ #details{
+    display: flex;
+    width: 100%;
+    border: 1px solid transparent;
+    justify-content: space-around;
+ }
+
+
+ 
+ #details #dbox{
+    border: 1px solid transparent;
+    width: 46%;
+    text-align: center;
+ }
+ #details #roomsBox{
+    width: 46%;
+ }
+
+ #line{
+    border: 1px solid silver;
+    width: 0px;
+    background-color: silver;
+    border-radius: 50px;
+ }
+
+ #details>div>div h5{
+    border: 1px solid transparent;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 20px;
+    margin-top: 10px;
+ }
+
+ #roomsBox{
+    display: grid;
+    border: 1px solid transparent;
+    align-content: space-around;
+ }
+
+ .rooms{
+    display: flex;
+    gap:10px;
+ }
+
+#heart{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+}
+#heart:hover{
+    cursor: pointer;
+}
+
+#description p{
+    color: gray;
+    border: 1px solid transparent;
+    margin-top: -4px;
+    text-align: center;
+    max-height: 20px;
+    overflow: hidden;
+}
+
+
+.box2>div hr{
+    border-radius: 50%;
+    width: 90%;
+}
